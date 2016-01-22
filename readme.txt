@@ -2,8 +2,8 @@
 Contributors: ethanpil, Toady
 Tags: gravity forms, gravity, disposable email, validation
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 1.1
+Tested up to: 4.4.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,8 +14,10 @@ Reject disposable email addresses in Gravity Forms email fields.
 Install this plugin into any WordPress system with a working Gravity Forms plugin and all known disposable email address hosts will be rejected and fail validation. This only checks the field type "email" and does not require any configuration or special settings. Its global, if its turned on, then its working.
 
 Thanks to adamloving for the initial list: https://gist.github.com/adamloving/4401361
+Thanks to wesbos for the updated list: https://github.com/wesbos/burner-email-providers
 
 This WordPress plugin is brought to you by [Los Angeles Web Design](https://www.angeleswebdesign.com "Los Angeles Web Design WordPress Experts")
+This WordPress plugin was modified by toady at 8pecxstudios.com
 
 == Installation ==
 
@@ -41,6 +43,10 @@ Thanks to adamloving for the initial list: https://gist.github.com/adamloving/44
 There is nothing to see here.
 
 == Changelog ==
+= 1.2 =
+* Updated email black list from https://github.com/wesbos/burner-email-providers
+* Fixed root directory disclosure from null or empty email fields.
+
 = 1.1 =
 * Fixed email case sensitivity bug. Thanks @jkirker
 
