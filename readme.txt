@@ -1,5 +1,5 @@
 === Gravity Forms Reject Disposable Emails ===
-Contributors: ethanpil
+Contributors: ethanpil, Toady
 Tags: gravity forms, gravity, disposable email, validation
 Requires at least: 3.0
 Tested up to: 3.8

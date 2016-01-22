@@ -3,9 +3,10 @@
 Plugin Name: Gravity Forms - Reject Disposable Email Addresses
 Plugin URI: https://github.com/ethanpil/gravityforms-reject-disposable-emails
 Description: Invalidate email addresses from disposable email services.
-Version: 1.1
+Version: 1.2
 Author: Angeles Web Design
 Author URI: http://angeleswebdesign.com
+Contributor: Toady@8pecxstudios
 License: GPL
 Text Domain: gravityforms-reject-disposable-emails
 */
