@@ -27,7 +27,14 @@ function invalidate_disposable_emails($validation_result)
 		{
 			// Get the submitted value from the $_POST
 			$field_value = rgpost("input_{$field['id']}");
-			
+
+			//Fail the validation for the entire form if null or empty
+			if ($field_value === NULL || empty($field_value)){
+				$field['failed_validation'] = true;
+        $field['validation_message'] = 'This form does not accept empty email fields.';
+				return $validation_result; 
+			}
+
 			if (check_email_blacklist($field_value) == 1) 
 			{
 				//Bad Email
