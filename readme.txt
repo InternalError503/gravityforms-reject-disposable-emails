@@ -1,3 +1,5 @@
+Forked from https://github.com/ethanpil/gravityforms-reject-disposable-emails
+
 === Gravity Forms Reject Disposable Emails ===
 Contributors: ethanpil, Toady
 Tags: gravity forms, gravity, disposable email, validation
