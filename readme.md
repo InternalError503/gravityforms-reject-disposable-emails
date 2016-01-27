@@ -5,7 +5,7 @@
 - __*Tags:*__ gravity forms, gravity, disposable email, validation
 - __*Requires at least:*__ 3.0
 - __*Tested up to:*__ 4.4.1
-- __*Stable tag:*__ 1.2
+- __*Stable tag:*__ 1.3
 - __*License:*__ GPLv2 or later
 - __*License URI:*__ http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,9 @@ __Question:__ Screenshots
 __Answer:__ There is nothing to see here.
 
 #### Changelog:
+
+##### 1.3
+- Fixed: Die if accessed directly.
 
 ##### 1.2
 - Updated email black list from [wesbos](https://github.com/wesbos/burner-email-providers)
